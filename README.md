@@ -111,10 +111,16 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
 ---
 
 ## 🧰 Tools & Icons
-<p align="left">
+<p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,sql,aws,azure,gcp,kubernetes,docker,terraform,linux,postgres,redis,kafka,spark,databricks,git,github,ts,js,nodejs,react" />
-  </a>
+    <img src="https://skillicons.dev/icons?i=aws,azure,gcp,kubernetes,docker,terraform,linux,ubuntu,debian,bash,git,github,githubactions,py,pytorch,tensorflow,postgres,sqlite,dynamodb,redis,kafka,grafana,prometheus,opencv,js,ts,nodejs,react,fastapi,flask,django,c,cpp,latex,gmail,linkedin,&perline=13" />
+  </a></br>
+  <img alt="Databricks" src="https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white" />
+  <img alt="MLflow" src="https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white" />
+  <img alt="dbt" src="https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white" />
+  <img alt="OpenTelemetry" src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat&logo=opentelemetry&logoColor=white" />
+  <img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-000000?style=flat&logo=openai&logoColor=white" />
+  <img alt="HuggingFace" src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=000" />
 </p>
 
 <!-- Optional: GitHub stats (enable if you want)
