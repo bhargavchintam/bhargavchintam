@@ -113,7 +113,7 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
 ## 🧰 Tools & Icons
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=aws,azure,gcp,kubernetes,docker,terraform,linux,ubuntu,debian,bash,git,github,githubactions,py,pytorch,tensorflow,postgres,sqlite,dynamodb,redis,kafka,grafana,prometheus,opencv,js,ts,nodejs,react,fastapi,flask,django,c,cpp,latex,gmail,linkedin,&perline=13" />
+    <img src="https://skillicons.dev/icons?i=aws,azure,gcp,kubernetes,docker,terraform,windows,apple,linux,ubuntu,debian,bash,git,github,githubactions,gitlab,py,pytorch,tensorflow,postgres,sqlite,mongodb,dynamodb,mysql,redis,kafka,grafana,prometheus,opencv,js,ts,nodejs,npm,react,fastapi,graphql,flask,django,opencv,c,cpp,go,java,latex,gmail,linkedin,anaconda,ansible,arduino,atom,bash,bitbucket,cassandra,d3,discord,elasticsearch,jenkins,md,postman,regex,stackoverflow,vim,vscode,&perline=13" />
   </a></br>
   <img alt="Databricks" src="https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white" />
   <img alt="MLflow" src="https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white" />
