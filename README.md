@@ -32,6 +32,7 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
 **Distributed Systems**: Raft/Paxos/PBFT • sharding/replication • leader election • 2PC • gRPC/Protobuf • backpressure & load balancing concepts  
 **OS / Systems**: Linux • processes/threads • concurrency primitives • memory & I/O fundamentals • TCP/IP basics • profiling/debugging  
 
+**GIS / Remote Sensing**: QGIS • ArcGIS • Google Earth Engine • GDAL/OGR • Rasterio • GeoPandas • Shapely • Fiona • Sentinel-2 • Landsat 8/9 • NDVI/EVI/SAVI • Land Surface Temperature • DEM Processing • AHP Multi-Criteria Analysis  
 **Languages**: Python • SQL • PySpark • TypeScript/JavaScript
 
 ---
@@ -70,6 +71,20 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
 - **Vector search prototypes** (Qdrant/Chroma) + **Docker cluster trials**
 
 > Check my pinned repos for the most up-to-date work.
+
+### 🌍 GIS & Remote Sensing Projects *(private repos)*
+
+- **Urban Heat Island Analysis & Mitigation Mapping** *(Urban Planning)*  
+  Land Surface Temperature extraction from Landsat 8/9 thermal imagery • UHI zone classification using standard deviation thresholds • LULC correlation analysis • Weighted Mitigation Priority Index combining thermal anomaly, population density, and green space deficit  
+  *5 source modules, unit tests, data download utility*
+
+- **Multi-Criteria Flood Risk Assessment** *(Environmental/Climate)*  
+  DEM hydrological preprocessing (sink filling, flow direction, flow accumulation, TWI) • AHP-weighted flood susceptibility mapping (7 criteria with consistency validation) • Socioeconomic vulnerability assessment (population, infrastructure, SVI) • Composite risk index with scenario analysis for multiple return periods (10yr–500yr)  
+  *6 source modules, comprehensive AHP unit tests*
+
+- **Crop Health Monitoring with Sentinel-2 NDVI** *(Agriculture/Remote Sensing)*  
+  Multi-temporal Sentinel-2 data loading with cloud masking and 20m→10m resampling • 7 vegetation indices (NDVI, EVI, SAVI, NDRE, NDWI, GNDVI, CIre) • Double-logistic phenology curve fitting • Anomaly detection (z-score, Isolation Forest, LOF) for crop stress identification • Field-level zonal statistics and change reporting  
+  *6 source modules, extensive unit tests*
 
 ---
 
@@ -122,6 +137,13 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
   <img alt="OpenTelemetry" src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat&logo=opentelemetry&logoColor=white" />
   <img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-000000?style=flat&logo=openai&logoColor=white" />
   <img alt="HuggingFace" src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=000" />
+  <img alt="QGIS" src="https://img.shields.io/badge/QGIS-589632?style=flat&logo=qgis&logoColor=white" />
+  <img alt="Google Earth Engine" src="https://img.shields.io/badge/Google%20Earth%20Engine-4285F4?style=flat&logo=google-earth&logoColor=white" />
+  <img alt="GDAL" src="https://img.shields.io/badge/GDAL-5CAE58?style=flat&logoColor=white" />
+  <img alt="GeoPandas" src="https://img.shields.io/badge/GeoPandas-139C5A?style=flat&logoColor=white" />
+  <img alt="Rasterio" src="https://img.shields.io/badge/Rasterio-4B8BBE?style=flat&logoColor=white" />
+  <img alt="Sentinel-2" src="https://img.shields.io/badge/Sentinel--2-003DA5?style=flat&logoColor=white" />
+  <img alt="Landsat" src="https://img.shields.io/badge/Landsat%208%2F9-1A73E8?style=flat&logoColor=white" />
 </p>
 
 <!-- Optional: GitHub stats (enable if you want)
