@@ -70,7 +70,7 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
 - **Text Summarization via OpenAI/Cohere** — *Contributor*
 - **YOLOv4-OpenCV-CUDA-DNN** — *Contributor*
 - **Vector search prototypes** (Qdrant/Chroma) + **Docker cluster trials** — *Contributor*
-- **3D Slicer Digital Assets for AI Research** — *Contributor*: Built and refined digital assets using 3D Slicer for medical imaging segmentation, annotation, and AI model training pipelines
+- **3D Slicer Digital Assets for AI Research** — *Contributor*
 
 > Check my pinned repos for the most up-to-date work.
 
