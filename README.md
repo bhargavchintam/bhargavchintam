@@ -32,6 +32,7 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
 **Distributed Systems**: Raft/Paxos/PBFT • sharding/replication • leader election • 2PC • gRPC/Protobuf • backpressure & load balancing concepts  
 **OS / Systems**: Linux • processes/threads • concurrency primitives • memory & I/O fundamentals • TCP/IP basics • profiling/debugging  
 
+**Medical Imaging**: 3D Slicer • DICOM • NIfTI • ITK/VTK • segmentation & annotation workflows  
 **GIS / Remote Sensing**: QGIS • ArcGIS • Google Earth Engine • GDAL/OGR • Rasterio • GeoPandas • Shapely • Fiona • Sentinel-2 • Landsat 8/9 • NDVI/EVI/SAVI • Land Surface Temperature • DEM Processing • AHP Multi-Criteria Analysis  
 **Languages**: Python • SQL • PySpark • TypeScript/JavaScript
 
@@ -63,12 +64,13 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
 ---
 
 ## 📌 Selected projects (from my GitHub)
-- **Debian-CFI-Census**
-- **MIMIC-III Benchmarks (clinical ML)**
-- **Semantic Search for Medical Practitioners (Cohere)**
-- **Text Summarization via OpenAI/Cohere**
-- **YOLOv4-OpenCV-CUDA-DNN**
-- **Vector search prototypes** (Qdrant/Chroma) + **Docker cluster trials**
+- **Debian-CFI-Census** — *Contributor*
+- **MIMIC-III Benchmarks (clinical ML)** — *Contributor*
+- **Semantic Search for Medical Practitioners (Cohere)** — *Contributor*
+- **Text Summarization via OpenAI/Cohere** — *Contributor*
+- **YOLOv4-OpenCV-CUDA-DNN** — *Contributor*
+- **Vector search prototypes** (Qdrant/Chroma) + **Docker cluster trials** — *Contributor*
+- **3D Slicer Digital Assets for AI Research** — *Contributor*: Built and refined digital assets using 3D Slicer for medical imaging segmentation, annotation, and AI model training pipelines
 
 > Check my pinned repos for the most up-to-date work.
 
@@ -144,6 +146,7 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
   <img alt="Rasterio" src="https://img.shields.io/badge/Rasterio-4B8BBE?style=flat&logoColor=white" />
   <img alt="Sentinel-2" src="https://img.shields.io/badge/Sentinel--2-003DA5?style=flat&logoColor=white" />
   <img alt="Landsat" src="https://img.shields.io/badge/Landsat%208%2F9-1A73E8?style=flat&logoColor=white" />
+  <img alt="3D Slicer" src="https://img.shields.io/badge/3D%20Slicer-F9A825?style=flat&logoColor=white" />
 </p>
 
 <!-- Optional: GitHub stats (enable if you want)
