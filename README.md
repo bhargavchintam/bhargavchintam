@@ -88,6 +88,16 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
   Multi-temporal Sentinel-2 data loading with cloud masking and 20m→10m resampling • 7 vegetation indices (NDVI, EVI, SAVI, NDRE, NDWI, GNDVI, CIre) • Double-logistic phenology curve fitting • Anomaly detection (z-score, Isolation Forest, LOF) for crop stress identification • Field-level zonal statistics and change reporting  
   *6 source modules, extensive unit tests*
 
+### 🏥 Medical Imaging / 3D Slicer Projects *(advanced, hands-on)*
+
+- **Brain Tumor Segmentation & 3D Volumetric Analysis** *(Neuro-oncology / AI Training Data)*  
+  End-to-end DICOM → NIfTI ingestion pipeline in 3D Slicer • Semi-automatic brain tumor segmentation using Segment Editor (threshold painting, grow-from-seeds, margin expansion) on multi-modal MRI (T1, T1-Gd, T2, FLAIR) • 3D volumetric rendering and tumor volume quantification • Label-map export for deep learning model training (nnU-Net / MONAI compatible) • Custom 3D Slicer Python scripted module for batch segmentation QA and inter-rater consistency checks  
+  *Hands-on with 3D Slicer Segment Editor, Markups, Volume Rendering, and scripted module development*
+
+- **CT Lung Nodule Annotation & AI-Ready Dataset Pipeline** *(Pulmonology / AI Research)*  
+  DICOM loading and lung windowing in 3D Slicer • Semi-automatic pulmonary nodule segmentation using threshold-based region growing and manual refinement • Annotation of nodule characteristics (size, shape, margin, texture) via custom Markups and JSON metadata export • Batch conversion of segmentations to NIfTI label maps with standardized naming for AI model ingestion • Integration with a Python post-processing script for COCO-style dataset formatting and train/val/test splitting  
+  *Hands-on with 3D Slicer DICOM module, Segment Editor, Markups, Python interop, and dataset curation for AI pipelines*
+
 ---
 
 ## 📝 Publications & 🧾 Patents (highlights)
