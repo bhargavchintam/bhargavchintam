@@ -32,6 +32,7 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
 **Distributed Systems**: Raft/Paxos/PBFT • sharding/replication • leader election • 2PC • gRPC/Protobuf • backpressure & load balancing concepts  
 **OS / Systems**: Linux • processes/threads • concurrency primitives • memory & I/O fundamentals • TCP/IP basics • profiling/debugging  
 
+**Medical Imaging**: 3D Slicer • DICOM • NIfTI • ITK/VTK • segmentation & annotation workflows  
 **GIS / Remote Sensing**: QGIS • ArcGIS • Google Earth Engine • GDAL/OGR • Rasterio • GeoPandas • Shapely • Fiona • Sentinel-2 • Landsat 8/9 • NDVI/EVI/SAVI • Land Surface Temperature • DEM Processing • AHP Multi-Criteria Analysis  
 **Languages**: Python • SQL • PySpark • TypeScript/JavaScript
 
@@ -63,12 +64,13 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
 ---
 
 ## 📌 Selected projects (from my GitHub)
-- **Debian-CFI-Census**
-- **MIMIC-III Benchmarks (clinical ML)**
-- **Semantic Search for Medical Practitioners (Cohere)**
-- **Text Summarization via OpenAI/Cohere**
-- **YOLOv4-OpenCV-CUDA-DNN**
-- **Vector search prototypes** (Qdrant/Chroma) + **Docker cluster trials**
+- **Debian-CFI-Census** — *Contributor*
+- **MIMIC-III Benchmarks (clinical ML)** — *Contributor*
+- **Semantic Search for Medical Practitioners (Cohere)** — *Contributor*
+- **Text Summarization via OpenAI/Cohere** — *Contributor*
+- **YOLOv4-OpenCV-CUDA-DNN** — *Contributor*
+- **Vector search prototypes** (Qdrant/Chroma) + **Docker cluster trials** — *Contributor*
+- **3D Slicer Digital Assets for AI Research** — *Contributor*
 
 > Check my pinned repos for the most up-to-date work.
 
@@ -85,6 +87,16 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
 - **Crop Health Monitoring with Sentinel-2 NDVI** *(Agriculture/Remote Sensing)*  
   Multi-temporal Sentinel-2 data loading with cloud masking and 20m→10m resampling • 7 vegetation indices (NDVI, EVI, SAVI, NDRE, NDWI, GNDVI, CIre) • Double-logistic phenology curve fitting • Anomaly detection (z-score, Isolation Forest, LOF) for crop stress identification • Field-level zonal statistics and change reporting  
   *6 source modules, extensive unit tests*
+
+### 🏥 Medical Imaging / 3D Slicer Projects *(advanced, hands-on)*
+
+- **Brain Tumor Segmentation & 3D Volumetric Analysis** *(Neuro-oncology / AI Training Data)*  
+  End-to-end DICOM → NIfTI ingestion pipeline in 3D Slicer • Semi-automatic brain tumor segmentation using Segment Editor (threshold painting, grow-from-seeds, margin expansion) on multi-modal MRI (T1, T1-Gd, T2, FLAIR) • 3D volumetric rendering and tumor volume quantification • Label-map export for deep learning model training (nnU-Net / MONAI compatible) • Custom 3D Slicer Python scripted module for batch segmentation QA and inter-rater consistency checks  
+  *Hands-on with 3D Slicer Segment Editor, Markups, Volume Rendering, and scripted module development*
+
+- **CT Lung Nodule Annotation & AI-Ready Dataset Pipeline** *(Pulmonology / AI Research)*  
+  DICOM loading and lung windowing in 3D Slicer • Semi-automatic pulmonary nodule segmentation using threshold-based region growing and manual refinement • Annotation of nodule characteristics (size, shape, margin, texture) via custom Markups and JSON metadata export • Batch conversion of segmentations to NIfTI label maps with standardized naming for AI model ingestion • Integration with a Python post-processing script for COCO-style dataset formatting and train/val/test splitting  
+  *Hands-on with 3D Slicer DICOM module, Segment Editor, Markups, Python interop, and dataset curation for AI pipelines*
 
 ---
 
@@ -144,6 +156,7 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
   <img alt="Rasterio" src="https://img.shields.io/badge/Rasterio-4B8BBE?style=flat&logoColor=white" />
   <img alt="Sentinel-2" src="https://img.shields.io/badge/Sentinel--2-003DA5?style=flat&logoColor=white" />
   <img alt="Landsat" src="https://img.shields.io/badge/Landsat%208%2F9-1A73E8?style=flat&logoColor=white" />
+  <img alt="3D Slicer" src="https://img.shields.io/badge/3D%20Slicer-F9A825?style=flat&logoColor=white" />
 </p>
 
 <!-- Optional: GitHub stats (enable if you want)
