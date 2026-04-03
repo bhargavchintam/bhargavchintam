@@ -4,7 +4,7 @@ Create a public repo named "bhargavchintam" and add this as README.md
 -->
 
 # Hi, I’m Bindu Bhargava Reddy Chintam 👋
-**Principal ML/AI Architect** • **LLM/RAG/Agentic AI** • **MLOps/LLMOps** • **Data/Cloud Engineering** • **Research Scientist** 
+**ML/AI Architect** • **LLM/RAG/Agentic AI** • **MLOps/LLMOps** • **Data/Cloud Engineering** • **Research Scientist** 
 
 📍 Stony Brook, NY
 
@@ -53,11 +53,11 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
 - RAG over lab literature/annotations/notes to accelerate hypothesis generation
 - Data-quality + GPU-usage guidelines for shared research infrastructure
 
-### Data Engineer & ML Engineer (5G / Telecom AI) — A5G Networks™
+### ML Engineer (5G / Telecom AI) — A5G Networks™
 - Azure Event Hub → Databricks (PySpark) → Delta → Azure ML pipeline for high-volume 5G events
 - MLflow + Azure DevOps + Kubernetes for monitored rollouts and retraining
 
-### Data Engineer & ML Engineer (ICU / CV / GenAI) — Cloudphysician
+### ML Engineer (ICU / CV / GenAI) — Cloudphysician
 - Real-time ICU analytics: video/vitals → Kafka/PySpark → AWS (EC2/Lambda/SageMaker/Redshift/DynamoDB)
 - Containerized CV/multimodal models with Docker + EKS for clinician dashboards
 
