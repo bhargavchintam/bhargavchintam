@@ -100,6 +100,41 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
 
 ---
 
+## 🎮 Game & Simulation Projects (Panda3D)
+
+Interactive 3D games and tools built in Python with the **Panda3D** engine — real-time physics, arcade gameplay, procedural geometry, GLSL shaders, and DirectGUI.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/bhargavchintam/dune-buggy-sandbox">🏜️ Dune Buggy Sandbox</a></h3>
+      <a href="https://github.com/bhargavchintam/dune-buggy-sandbox"><img src="https://raw.githubusercontent.com/bhargavchintam/dune-buggy-sandbox/main/media/dune_buggy_gameplay.gif" width="100%"/></a>
+      <sub>Bullet vehicle physics on procedural heightfield dunes — jump ramps, loop rings, suspension, dust & speed-tracking engine sound.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/bhargavchintam/orbital-defense">🚀 Orbital Defense</a></h3>
+      <a href="https://github.com/bhargavchintam/orbital-defense"><img src="https://raw.githubusercontent.com/bhargavchintam/orbital-defense/main/media/orbital_defense_gameplay.gif" width="100%"/></a>
+      <sub>Top-down arcade space shooter — pickups, shields, settings sliders, pause/continue, and an animated GLSL starfield.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/bhargavchintam/beam-bender">🔦 Beam Bender</a></h3>
+      <a href="https://github.com/bhargavchintam/beam-bender"><img src="https://raw.githubusercontent.com/bhargavchintam/beam-bender/main/media/beam_bender_gameplay.gif" width="100%"/></a>
+      <sub>A 3D grid puzzle — rotate the mirrors so the beam reflects onto every target.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/bhargavchintam/still-life-painter">🎨 Still Life Painter</a></h3>
+      <a href="https://github.com/bhargavchintam/still-life-painter"><img src="https://raw.githubusercontent.com/bhargavchintam/still-life-painter/main/media/still_life_gameplay.gif" width="100%"/></a>
+      <sub>3D art-studio painting minigame — orbit a still life and paint what you see (glTF · Poly Haven CC0 assets).</sub>
+    </td>
+  </tr>
+</table>
+
+> **Stack:** Panda3D · Bullet physics · GLSL shaders · procedural geometry · DirectGUI · glTF/GLB
+
+---
+
 ## 📝 Publications & 🧾 Patents (highlights)
 **Publications**
 - Facial Emotions and Behaviour Detection using DNN (Scopus, 2021)
