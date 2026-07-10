@@ -166,7 +166,7 @@ Interactive 3D games and tools built in Python with the **Panda3D** engine — r
 ---
 
 ## 📫 Let’s connect
-- Email: **bindubhagavareddy@gmail.com**
+- Email: **bindubhargavareddy@gmail.com**
 - LinkedIn: **bindu-bhargava-reddy-chintam**
 - GitHub: **@bhargavchintam**
 - Phone: **+1 (934) 221-7847**
