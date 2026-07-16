@@ -74,6 +74,11 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
 
 > Check my pinned repos for the most up-to-date work.
 
+## Open Source Contributions
+- [linbbcooperi/CryoClear#1](https://github.com/linbbcooperi/CryoClear/pull/1) — Fix `JunkClassifier.load()` dropping the saved `model_type`, breaking incremental SGD updates after a save/load round trip
+- [linbbcooperi/CryoClear#2](https://github.com/linbbcooperi/CryoClear/pull/2) — Add unit tests for `ActiveLearner` (cold-start seeding, correction buffering, undo/refit, single-class guard)
+- [drdileepunni/GAM#1](https://github.com/drdileepunni/GAM/pull/1) — Fix `subsample_window` global RNG mutation and a crash on 2-row-or-smaller windows
+
 ### 🌍 GIS & Remote Sensing Projects *(private repos)*
 
 - **Urban Heat Island Analysis & Mitigation Mapping** *(Urban Planning)*  
