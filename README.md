@@ -78,6 +78,7 @@ I build production-grade AI systems—especially **agentic workflows**, **RAG wi
 - [linbbcooperi/CryoClear#1](https://github.com/linbbcooperi/CryoClear/pull/1) — Fix `JunkClassifier.load()` dropping the saved `model_type`, breaking incremental SGD updates after a save/load round trip
 - [linbbcooperi/CryoClear#2](https://github.com/linbbcooperi/CryoClear/pull/2) — Add unit tests for `ActiveLearner` (cold-start seeding, correction buffering, undo/refit, single-class guard)
 - [drdileepunni/GAM#1](https://github.com/drdileepunni/GAM/pull/1) — Fix `subsample_window` global RNG mutation and a crash on 2-row-or-smaller windows
+- [drdileepunni/GAM#2](https://github.com/drdileepunni/GAM/pull/2) — De-bloat repo: stop tracking generated Plotly HTML visualization dumps (~14MB)
 
 ### 🌍 GIS & Remote Sensing Projects *(private repos)*
 
