@@ -164,6 +164,25 @@ Interactive 3D games and tools built in Python with the **Panda3D** engine — r
 
 ---
 
+## 📚 Coursework, Labs & Study Path
+
+**➡️ [Full study path and repository index](STUDY-PATH.md)**
+
+My coursework, lab and practice repos are open — the notes, the runnable programs and the lab records for each subject, arranged as a curriculum rather than a pile. Everything builds with a standard toolchain.
+
+| Track | Where to start |
+|---|---|
+| Programming | [C](https://github.com/bhargavchintam/computer-concepts-and-c-programming) · [Python](https://github.com/bhargavchintam/programming-with-python-and-labs) · [C++](https://github.com/bhargavchintam/object-oriented-programming-cpp) · [Java](https://github.com/bhargavchintam/advanced-computer-programming-java) |
+| Core CS | [Data Structures & Algorithms](https://github.com/bhargavchintam/data-structures-and-algorithms-and-lab) · [Design & Analysis of Algorithms](https://github.com/bhargavchintam/design-and-analysis-of-algorithms-and-lab) |
+| Systems | [Digital Logic](https://github.com/bhargavchintam/digital-principles-and-logic-design-and-lab) · [Architecture](https://github.com/bhargavchintam/computer-organization-and-architecture-and-lab) · [8051](https://github.com/bhargavchintam/microcontrollers-and-lab) · [System Software](https://github.com/bhargavchintam/system-software-and-lab) |
+| OS & Networks | [Operating Systems & Unix](https://github.com/bhargavchintam/operating-system-and-unix-internals-and-lab) · [Computer Networks](https://github.com/bhargavchintam/computer-network-concepts-and-protocol-and-lab) |
+| Data & ML | [DBMS](https://github.com/bhargavchintam/database-management-system-and-lab) · [Data Mining](https://github.com/bhargavchintam/data-mining-techniques-and-lab) · [Big Data](https://github.com/bhargavchintam/big-data-and-hadoop) · [Machine Learning](https://github.com/bhargavchintam/machine-learning-and-applications) |
+| Cloud & Security | [Virtualization & Cloud](https://github.com/bhargavchintam/virtualization-and-cloud-computing) · [Cloud Lab](https://github.com/bhargavchintam/cloud-computing-lab) · [Cryptography](https://github.com/bhargavchintam/cryptography-and-network-security-and-lab) |
+| Interview practice | [LeetCode (935)](https://github.com/bhargavchintam/leetcode) · [Low-Level Design (48)](https://github.com/bhargavchintam/low-level-design) · [High-Level Design (68)](https://github.com/bhargavchintam/high-level-design) |
+| AI infrastructure | [LLM Inference](https://github.com/bhargavchintam/llm-inference) · [GPU Kernels](https://github.com/bhargavchintam/gpu-kernels) |
+
+---
+
 ## 🤝 Leadership & Service
 - President, Graduate Student Organization — SBU (May 2024 – Jun 2025)
 - Chief Steward, CWA Local 1101 GSEU (Mar 2024 – Present)
