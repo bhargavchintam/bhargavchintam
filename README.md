@@ -6,7 +6,7 @@ Create a public repo named "bhargavchintam" and add this as README.md
 # Hi, I’m Bindu Bhargava Reddy Chintam 👋
 **ML/AI Architect** • **LLM/RAG/Agentic AI** • **MLOps/LLMOps** • **Data/Cloud Engineering** • **Research Scientist** 
 
-📍 Stony Brook, NY
+📍 San Francisco, CA
 
 I build production-grade AI systems—especially **agentic workflows**, **RAG with evaluation + guardrails**, and **LLMOps/MLOps** on **AWS / Azure / GCP**—turning research prototypes into monitored, secure, cost-aware services.
 
