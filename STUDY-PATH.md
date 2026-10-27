@@ -2,7 +2,7 @@
 
 An index of every coursework, lab, workshop and practice repository on this account, arranged in the order it actually makes sense to study them rather than the order I took them.
 
-Most of these are B.Tech CSE course repos from REVA University (2017–2021). Each one holds the notes, the runnable programs and the lab records for a single subject. On their own they are a pile of forty repos; in the order below they are a full computer-science curriculum that ends in AI systems work.
+Most of these are B.Tech CSE course repos from REVA University (2017–2021). Each one holds the notes, the runnable programs and the lab records for a single subject. On their own they are a pile of repos; in the order below they are a full computer-science curriculum that ends in AI systems work.
 
 ## How to use this
 
@@ -18,7 +18,7 @@ Three rules that make this work:
 
 | Track | Repos | What it gets you |
 |---|---|---|
-| Foundations | 5 | Engineering maths, drawing, circuits, mechanics |
+| Foundations | 4 | Engineering drawing, circuits, mechanics, civil basics |
 | Programming | 5 | C, C++, Java, Python, and the summer camp |
 | Core CS | 3 | Data structures, algorithm design, complexity |
 | Machine & systems | 4 | Logic design, computer architecture, 8051, system software |
@@ -28,7 +28,7 @@ Three rules that make this work:
 | Cloud & security | 3 | Virtualization, cloud, cryptography |
 | Interview practice | 3 | 935 LeetCode solutions, 48 LLD designs, 68 HLD docs |
 | AI infrastructure | 2 | CUDA/Triton kernels, LLM inference internals |
-| Graduate & applied | 6 | US graduate coursework and applied analytics |
+| Graduate & applied | 4 | US graduate coursework and applied analytics |
 
 ---
 
@@ -194,18 +194,17 @@ Reference material rather than a path — useful for a second explanation when a
 
 | Repo | Subject |
 |---|---|
-| [Complete-Python-3-Bootcamp](https://github.com/bhargavchintam/Complete-Python-3-Bootcamp) | Python |
-| [deep-learning-coursera](https://github.com/bhargavchintam/deep-learning-coursera) | Deep Learning Specialization |
-| [Tensorflow-in-practise-Specialization](https://github.com/bhargavchintam/Tensorflow-in-practise-Specialization) | TensorFlow |
-| [Data-Science-with-R](https://github.com/bhargavchintam/Data-Science-with-R) | ML and statistics in R |
-| [DataCamp](https://github.com/bhargavchintam/DataCamp) | Data science courses |
-| [learnopencv](https://github.com/bhargavchintam/learnopencv) | Computer vision, C++ and Python |
-| [Intro-to-Cassandra-for-Developers](https://github.com/bhargavchintam/Intro-to-Cassandra-for-Developers) | Cassandra workshop |
-| [workshop-introduction-to-nosql](https://github.com/bhargavchintam/workshop-introduction-to-nosql) | NoSQL workshop |
-| [coding-interview-university](https://github.com/bhargavchintam/coding-interview-university) | CS study plan |
-| [system-design-interview](https://github.com/bhargavchintam/system-design-interview) | System design |
+| [Complete-Python-3-Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp) (Pierian Data) | Python |
+| [deep-learning-coursera](https://github.com/Kulbear/deep-learning-coursera) (Kulbear) | Deep Learning Specialization |
+| [Tensorflow-in-practise-Specialization](https://github.com/ashishpatel26/Tensorflow-in-practise-Specialization) (ashishpatel26) | TensorFlow |
+| [DataCamp](https://github.com/Anthonymcqueen21/DataCamp) (Anthonymcqueen21) | Data science courses |
+| [learnopencv](https://github.com/spmallick/learnopencv) (Satya Mallick) | Computer vision, C++ and Python |
+| [Intro to Cassandra for Developers](https://github.com/datastax-archive/workshop-intro-to-cassandra) (DataStax) | Cassandra workshop |
+| [workshop-introduction-to-nosql](https://github.com/datastax-archive/workshop-introduction-to-nosql) (DataStax) | NoSQL workshop |
+| [coding-interview-university](https://github.com/jwasham/coding-interview-university) (John Washam) | CS study plan |
+| [system-design-interview](https://github.com/checkcheckzz/system-design-interview) (checkcheckzz) | System design |
 
-Also on the account: forked archives kept for reference rather than study — HackerRank solution sets, `python-guide`, `DS_Notes`, `CSE6363` (a graduate ML course), and `unfolding-maps` from the Java data-structures specialization. Two graduate repos (an F1 statistics visualization project and a COVID strategic analysis) are private and so aren't linked here.
+These are other people's courses and notes, linked at their original repos. Other reference material I used the same way: HackerRank solution sets, [python-guide](https://github.com/realpython/python-guide), [CSE6363](https://github.com/ajdillhoff/CSE6363) (a graduate ML course), and [unfolding-maps](https://github.com/mehdihasan/unfolding-maps) from the Java data-structures specialization. Two graduate repos (an F1 statistics visualization project and a COVID strategic analysis) are private and so aren't linked here.
 
 ---
 
