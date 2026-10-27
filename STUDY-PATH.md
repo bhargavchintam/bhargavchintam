@@ -2,21 +2,21 @@
 
 An index of every coursework, lab, workshop and practice repository on this account, arranged in the order it actually makes sense to study them rather than the order I took them.
 
-Most of these are B.Tech CSE course repos from REVA University (2017–2021). Each one holds the notes, the runnable programs and the lab records for a single subject. On their own they are a pile of repos; in the order below they are a full computer-science curriculum that ends in AI systems work.
+Most of this is B.Tech CSE coursework from REVA University (2017–2021). It now lives in one repo, [btech-cse-coursework](https://github.com/bhargavchintam/btech-cse-coursework), with one folder per subject for the notes, the runnable programs and the lab records. In the order below, the subjects make a full computer-science curriculum that ends in AI systems work.
 
 ## How to use this
 
-Work down a phase at a time. Each phase lists what to read, what to run, and what you should be able to do before moving on. Nothing here is a video course — every repo is source you compile and run, so the unit of progress is *"I ran it and changed it"*, not *"I watched it"*.
+Work down a phase at a time. Each phase lists what to read, what to run, and what you should be able to do before moving on. Nothing here is a video course — everything here is source you compile and run, so the unit of progress is *"I ran it and changed it"*, not *"I watched it"*.
 
 Three rules that make this work:
 
-1. **Type the programs out, don't skim them.** Every repo builds with a plain toolchain (`gcc`, `g++`, `javac`, `python3`, `octave`, `ngspice`). If it doesn't run for you, that's the lesson.
-2. **Do the labs.** The `lab/` folder in each repo is the graded subset — the problems that were considered the minimum bar for the subject.
+1. **Type the programs out, don't skim them.** Everything builds with a plain toolchain (`gcc`, `g++`, `javac`, `python3`, `octave`, `ngspice`). If it doesn't run for you, that's the lesson.
+2. **Do the labs.** The `lab/` folder in each subject is the graded subset — the problems that were considered the minimum bar for the subject.
 3. **Keep the interview track running in parallel** from Phase 2 onward, a few problems a week, rather than saving it for the end.
 
 ## The map at a glance
 
-| Track | Repos | What it gets you |
+| Track | Subjects or repos | What it gets you |
 |---|---|---|
 | Foundations | 4 | Engineering drawing, circuits, mechanics, civil basics |
 | Programming | 5 | C, C++, Java, Python, and the summer camp |
@@ -36,10 +36,10 @@ Three rules that make this work:
 
 First-year subjects. Skip these if you only care about the software path; they're here because the degree included them and the notes are complete.
 
-| Repo | Contents |
+| Subject | Contents |
 |---|---|
 | [computer-aided-engineering-drawing](https://github.com/bhargavchintam/computer-aided-engineering-drawing) | 64 DXF drawings — projections, sections, development, isometric — plus AutoCAD scripts and AutoLISP routines |
-| [basic-electrical-engineering-and-lab](https://github.com/bhargavchintam/basic-electrical-engineering-and-lab) | Unit notes, ngspice circuit simulations, Octave numericals, twelve lab experiments |
+| [foundations/basic-electrical](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/foundations/basic-electrical) | Unit notes, ngspice circuit simulations, Octave numericals, twelve lab experiments |
 | [elements-of-mechanical-engineering-and-lab](https://github.com/bhargavchintam/elements-of-mechanical-engineering-and-lab) | Engine cycles, refrigeration, drives — Octave numericals and workshop records |
 | [elements-of-civil-engineering](https://github.com/bhargavchintam/elements-of-civil-engineering) | Building materials, surveying, transportation, basic mechanics |
 
@@ -51,13 +51,13 @@ First-year subjects. Skip these if you only care about the software path; they'r
 
 Start here if you're starting from zero. C first, because everything in Phases 3 and 4 assumes you can read it.
 
-| Order | Repo | Contents |
+| Order | Subject | Contents |
 |---|---|---|
-| 1 | [computer-concepts-and-c-programming](https://github.com/bhargavchintam/computer-concepts-and-c-programming) | 219 C programs — printf through pointers, structures, files, dynamic memory, and menu-driven projects |
-| 2 | [programming-with-python-and-labs](https://github.com/bhargavchintam/programming-with-python-and-labs) | Python basics to decorators, generators and regex, pure standard library |
-| 3 | [object-oriented-programming-cpp](https://github.com/bhargavchintam/object-oriented-programming-cpp) | 145 C++ programs — classes through operator overloading, inheritance, templates, exceptions, STL |
-| 4 | [advanced-computer-programming-java](https://github.com/bhargavchintam/advanced-computer-programming-java) | 172 Java programs — basics to threads, collections, Swing, and projects |
-| — | [summer-training-2018](https://github.com/bhargavchintam/summer-training-2018) | Ten-week camp: core/advanced Java, HTML/CSS/JS/Bootstrap, React + Node, Python |
+| 1 | [01-programming/c-programming](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/01-programming/c-programming) | 219 C programs — printf through pointers, structures, files, dynamic memory, and menu-driven projects |
+| 2 | [01-programming/python](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/01-programming/python) | Python basics to decorators, generators and regex, pure standard library |
+| 3 | [01-programming/cpp-oop](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/01-programming/cpp-oop) | 145 C++ programs — classes through operator overloading, inheritance, templates, exceptions, STL |
+| 4 | [01-programming/java](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/01-programming/java) | 172 Java programs — basics to threads, collections, Swing, and projects |
+| — | [01-programming/summer-training-2018](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/01-programming/summer-training-2018) | Ten-week camp: core/advanced Java, HTML/CSS/JS/Bootstrap, React + Node, Python |
 
 **Done when:** you can write a menu-driven C program with `malloc`/`free` that doesn't leak, and the same program in C++ with a class and in Python in a third the lines.
 
@@ -67,12 +67,12 @@ Start here if you're starting from zero. C first, because everything in Phases 3
 
 The centre of the degree. Everything after this leans on it.
 
-| Order | Repo | Contents |
+| Order | Subject | Contents |
 |---|---|---|
-| 1 | [data-structures-and-algorithms-and-lab](https://github.com/bhargavchintam/data-structures-and-algorithms-and-lab) | 148 C programs — stacks, queues, linked lists, trees, heaps, hashing, graphs |
-| 2 | [design-and-analysis-of-algorithms-and-lab](https://github.com/bhargavchintam/design-and-analysis-of-algorithms-and-lab) | 83 C++ programs organised by *paradigm* — brute force, divide & conquer, greedy, DP, backtracking, branch & bound, NP |
+| 1 | [02-core-cs/data-structures](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/02-core-cs/data-structures) | 148 C programs — stacks, queues, linked lists, trees, heaps, hashing, graphs |
+| 2 | [02-core-cs/algorithm-design](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/02-core-cs/algorithm-design) | 83 C++ programs organised by *paradigm* — brute force, divide & conquer, greedy, DP, backtracking, branch & bound, NP |
 
-Do them in that order and in that framing: DSA teaches you the containers, DAA teaches you the strategies for attacking a problem you've never seen. The DAA repo is deliberately arranged by technique rather than by topic, which is the arrangement that transfers to interviews.
+Do them in that order and in that framing: DSA teaches you the containers, DAA teaches you the strategies for attacking a problem you've never seen. The DAA folder is deliberately arranged by technique rather than by topic, which is the arrangement that transfers to interviews.
 
 **Done when:** you can implement a BST delete with two children from memory, and, given a new problem, name the paradigm before you write any code.
 
@@ -84,12 +84,12 @@ Do them in that order and in that framing: DSA teaches you the containers, DAA t
 
 How the machine actually executes what you wrote.
 
-| Order | Repo | Contents |
+| Order | Subject | Contents |
 |---|---|---|
-| 1 | [digital-principles-and-logic-design-and-lab](https://github.com/bhargavchintam/digital-principles-and-logic-design-and-lab) | Gates to sequential circuits — VHDL and Verilog with testbenches, 74-series lab records |
-| 2 | [computer-organization-and-architecture-and-lab](https://github.com/bhargavchintam/computer-organization-and-architecture-and-lab) | Datapath, control, pipelining, cache, addressing — C simulations plus Verilog |
-| 3 | [microcontrollers-and-lab](https://github.com/bhargavchintam/microcontrollers-and-lab) | Intel 8051 — assembly, embedded C (SDCC), fourteen lab experiments |
-| 4 | [system-software-and-lab](https://github.com/bhargavchintam/system-software-and-lab) | SIC/XE, assemblers, loaders, macro processors, compilers, LEX & YACC |
+| 1 | [03-machine-level/digital-logic](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/03-machine-level/digital-logic) | Gates to sequential circuits — VHDL and Verilog with testbenches, 74-series lab records |
+| 2 | [03-machine-level/computer-organization](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/03-machine-level/computer-organization) | Datapath, control, pipelining, cache, addressing — C simulations plus Verilog |
+| 3 | [03-machine-level/microcontrollers-8051](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/03-machine-level/microcontrollers-8051) | Intel 8051 — assembly, embedded C (SDCC), fourteen lab experiments |
+| 4 | [03-machine-level/system-software](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/03-machine-level/system-software) | SIC/XE, assemblers, loaders, macro processors, compilers, LEX & YACC |
 
 This is the phase most self-taught paths skip, and it's the one that later makes GPU memory hierarchies and cache-aware kernels feel obvious instead of magical.
 
@@ -99,12 +99,12 @@ This is the phase most self-taught paths skip, and it's the one that later makes
 
 ## Phase 4 — Operating systems and networks
 
-| Order | Repo | Contents |
+| Order | Subject | Contents |
 |---|---|---|
-| 1 | [operating-system-and-unix-internals-and-lab](https://github.com/bhargavchintam/operating-system-and-unix-internals-and-lab) | Processes, signals, IPC, threads, synchronization in C; scheduling, memory, deadlock, disk algorithms in C++ |
-| 2 | [computer-network-concepts-and-protocol-and-lab](https://github.com/bhargavchintam/computer-network-concepts-and-protocol-and-lab) | OSI/TCP-IP, framing, error control, routing, **BSD socket programming**, network tools, security — plus three term projects |
+| 1 | [04-os-networks/operating-systems](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/04-os-networks/operating-systems) | Processes, signals, IPC, threads, synchronization in C; scheduling, memory, deadlock, disk algorithms in C++ |
+| 2 | [04-os-networks/computer-networks](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/04-os-networks/computer-networks) | OSI/TCP-IP, framing, error control, routing, **BSD socket programming**, network tools, security — plus three term projects |
 
-The networks repo is the one to spend real time in. The socket programs are client–server pairs that run on loopback, and the three projects (a multi-client chat server on `select()`, a chunked file transfer, and a small HTTP server) are the first things here that behave like production software.
+The networks folder is the one to spend real time in. The socket programs are client–server pairs that run on loopback, and the three projects (a multi-client chat server on `select()`, a chunked file transfer, and a small HTTP server) are the first things here that behave like production software.
 
 **Done when:** you can write a `select()`-based server that handles several clients without threads, and explain what happens to a packet between two hosts.
 
@@ -112,13 +112,13 @@ The networks repo is the one to spend real time in. The socket programs are clie
 
 ## Phase 5 — Data
 
-| Order | Repo | Contents |
+| Order | Subject | Contents |
 |---|---|---|
-| 1 | [database-management-system-and-lab](https://github.com/bhargavchintam/database-management-system-and-lab) | Notes, runnable MySQL/SQL, PL/SQL procedures and triggers, twelve labs, a Library Management System |
-| 2 | [data-mining-techniques-and-lab](https://github.com/bhargavchintam/data-mining-techniques-and-lab) | Preprocessing, Apriori/FP-growth, classification, clustering, regression, PCA — implemented from scratch in numpy, with scikit-learn comparisons |
-| 3 | [big-data-and-hadoop](https://github.com/bhargavchintam/big-data-and-hadoop) | HDFS, MapReduce (Java + Python streaming), Hive, Pig, HBase, Sqoop, Spark |
+| 1 | [05-data/dbms](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/05-data/dbms) | Notes, runnable MySQL/SQL, PL/SQL procedures and triggers, twelve labs, a Library Management System |
+| 2 | [05-data/data-mining](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/05-data/data-mining) | Preprocessing, Apriori/FP-growth, classification, clustering, regression, PCA — implemented from scratch in numpy, with scikit-learn comparisons |
+| 3 | [05-data/big-data-hadoop](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/05-data/big-data-hadoop) | HDFS, MapReduce (Java + Python streaming), Hive, Pig, HBase, Sqoop, Spark |
 
-Normalisation and transactions first, then mining. The data-mining repo writes each algorithm by hand *and* calls the library version, which is the fastest way to stop treating `sklearn` as a black box.
+Normalisation and transactions first, then mining. The data-mining folder writes each algorithm by hand *and* calls the library version, which is the fastest way to stop treating `sklearn` as a black box.
 
 **Done when:** you can normalise a schema to 3NF and write Apriori without looking at the library.
 
@@ -126,9 +126,9 @@ Normalisation and transactions first, then mining. The data-mining repo writes e
 
 ## Phase 6 — Machine learning
 
-| Repo | Contents |
+| Subject | Contents |
 |---|---|
-| [machine-learning-and-applications](https://github.com/bhargavchintam/machine-learning-and-applications) | Regression through neural networks — every algorithm from scratch in numpy *and* the scikit-learn way, twelve labs, and a breast-cancer diagnosis project |
+| [06-ml/machine-learning](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/06-ml/machine-learning) | Regression through neural networks — every algorithm from scratch in numpy *and* the scikit-learn way, twelve labs, and a breast-cancer diagnosis project |
 
 The one to read slowly. Backprop is written out in numpy; if you can follow that file line by line, the frameworks stop being mysterious.
 
@@ -138,11 +138,11 @@ The one to read slowly. Backprop is written out in numpy; if you can follow that
 
 ## Phase 7 — Cloud, virtualization and security
 
-| Repo | Contents |
+| Subject | Contents |
 |---|---|
-| [virtualization-and-cloud-computing](https://github.com/bhargavchintam/virtualization-and-cloud-computing) | Virtualization, Docker, Kubernetes, AWS (boto3), Terraform/Ansible, 14 labs |
-| [cloud-computing-lab](https://github.com/bhargavchintam/cloud-computing-lab) | Scheduling, load balancing, MapReduce, a mini CloudSim, consistent hashing — plus Docker/K8s/Terraform artifacts |
-| [cryptography-and-network-security-and-lab](https://github.com/bhargavchintam/cryptography-and-network-security-and-lab) | Classical ciphers, DES/AES, number theory, RSA/Diffie–Hellman/ElGamal, hashing, HMAC, signatures in C with OpenSSL |
+| [07-cloud-security/virtualization-cloud](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/07-cloud-security/virtualization-cloud) | Virtualization, Docker, Kubernetes, AWS (boto3), Terraform/Ansible, 14 labs |
+| [07-cloud-security/cloud-computing-lab](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/07-cloud-security/cloud-computing-lab) | Scheduling, load balancing, MapReduce, a mini CloudSim, consistent hashing — plus Docker/K8s/Terraform artifacts |
+| [07-cloud-security/cryptography](https://github.com/bhargavchintam/btech-cse-coursework/tree/main/07-cloud-security/cryptography) | Classical ciphers, DES/AES, number theory, RSA/Diffie–Hellman/ElGamal, hashing, HMAC, signatures in C with OpenSSL |
 
 **Done when:** you can containerise a service, deploy it to a local cluster, and explain why RSA is safe in terms of the factoring problem.
 
@@ -227,4 +227,4 @@ These are other people's courses and notes, linked at their original repos. Othe
 
 ---
 
-*Every repo listed here builds and runs with a standard toolchain, with the single exception of the CUDA and Triton kernels, which need an NVIDIA GPU.*
+*Everything listed here builds and runs with a standard toolchain, with the single exception of the CUDA and Triton kernels, which need an NVIDIA GPU.*
