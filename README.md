@@ -1,225 +1,145 @@
-<!--
-Profile README for: bhargavchintam
-Create a public repo named "bhargavchintam" and add this as README.md
--->
+<h1 align="center">
+  Hi, I'm Bindu Bhargava Reddy Chintam
+  <img src="assets/emoji/waving_hand.png" width="40" alt="">
+</h1>
 
-# Hi, I’m Bindu Bhargava Reddy Chintam 👋
-**ML/AI Architect** • **LLM/RAG/Agentic AI** • **MLOps/LLMOps** • **Data/Cloud Engineering** • **Research Scientist** 
+<p align="center">
+  <b>ML systems engineer</b> · GPU performance · LLM inference · AI agents whose work can be checked
+  <br>
+  Research Scientist at the Research Foundation for SUNY · San Francisco Bay Area
+</p>
 
-📍 San Francisco, CA
+<p align="center">
+  <a href="https://www.linkedin.com/in/bindu-bhargava-reddy-chintam/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://bhargavchintam.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-24292F?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"></a>
+  <a href="https://scholar.google.com/citations?user=ecHv7DkAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
+  <a href="mailto:bindubhargavareddy@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
-I build production-grade AI systems—especially **agentic workflows**, **RAG with evaluation + guardrails**, and **LLMOps/MLOps** on **AWS / Azure / GCP**—turning research prototypes into monitored, secure, cost-aware services.
+I make large models train and serve faster, and I build AI agents whose work can be checked.
 
----
+- 🔬 **Now:** Research Scientist at the Research Foundation for SUNY. I profile and tune LLM fine-tuning on NVIDIA B200 (Nsight, Triton and CUDA kernels, FSDP, QLoRA) and build deep-learning models for genomics.
+- 🏗️ **Before:** ML engineer at A5G Networks (5G traffic forecasting, Databricks and Delta Lake pipelines) and at Cloudphysician (real-time ICU alerting on Kafka, PySpark and AWS); data engineer at InxiteOut.
+- 🧪 **On weekends:** hackathon builds on agent security, computer use, video agents, rare-disease diagnosis and cryo-EM.
+- 📄 7 peer-reviewed papers and 3 patents, listed on [Google Scholar](https://scholar.google.com/citations?user=ecHv7DkAAAAJ&hl=en).
 
-## 🚀 What I focus on
-- **Agentic AI systems** (LangGraph, CrewAI, AutoGen) and tool-graph orchestration  
-- **RAG in production**: retrieval design, reranking, evals (RAGAS/TruLens), guardrails, and governance  
-- **LLMOps/MLOps**: model serving, observability, drift/eval jobs, and reliability SLOs  
-- **Data platforms & streaming**: event-driven pipelines, lakehouse patterns, and scalable feature delivery  
-- **AI infra**: Kubernetes + Terraform + GPU scheduling/autoscaling  
-- **Distributed systems foundations**: fault tolerance, consistency trade-offs, RPC, and scalable service design  
-
----
-
-## 🧠 Core stack (high-signal)
-**AI / Agentic**: LangGraph • CrewAI • AutoGen • LlamaIndex • Semantic Kernel • n8n  
-**RAG / Retrieval**: RAGAS • TruLens • Guardrails • Pinecone/Weaviate/Qdrant/Milvus/Chroma/pgvector • rerankers • ColBERT-style retrieval  
-**MLOps / LLMOps**: MLflow • Ray Serve • BentoML • KServe • Seldon • OpenTelemetry • Prometheus/Grafana  
-**Cloud GenAI**: AWS Bedrock • SageMaker JumpStart • Azure AI Studio/Prompt Flow/Azure OpenAI • GCP Vertex AI Agent Builder  
-**Data / Governance**: Databricks/Delta • Iceberg/Hudi • dbt • Great Expectations • Evidently AI • CDC/ELT  
-**Infra**: EKS/AKS/GKE • Helm • Terraform • Docker • Vault/KMS  
-**Distributed Systems**: Raft/Paxos/PBFT • sharding/replication • leader election • 2PC • gRPC/Protobuf • backpressure & load balancing concepts  
-**OS / Systems**: Linux • processes/threads • concurrency primitives • memory & I/O fundamentals • TCP/IP basics • profiling/debugging  
-
-**Medical Imaging**: 3D Slicer • DICOM • NIfTI • ITK/VTK • segmentation & annotation workflows  
-**GIS / Remote Sensing**: QGIS • ArcGIS • Google Earth Engine • GDAL/OGR • Rasterio • GeoPandas • Shapely • Fiona • Sentinel-2 • Landsat 8/9 • NDVI/EVI/SAVI • Land Surface Temperature • DEM Processing • AHP Multi-Criteria Analysis  
-**Languages**: Python • SQL • PySpark • TypeScript/JavaScript
-
----
-
-## 🕸️ Distributed Systems & OS (coursework + hands-on)
-- **Consensus & replication**: Raft, Paxos / Multi-Paxos, PBFT; leader election; failure handling  
-- **Transactions & coordination**: sharding, replication strategies, **2PC** concepts for cross-partition operations  
-- **RPC & networking**: **gRPC + Protobuf**, service boundaries, timeouts/retries, load balancing fundamentals  
-- **Concurrency**: threads vs async I/O, synchronization basics, race conditions/deadlocks (and avoidance patterns)  
-- **OS fundamentals**: Linux, process lifecycle, scheduling concepts, memory/I/O basics, performance profiling  
-
----
-
-## 💼 Experience snapshot
-### Research Scientist – AI for Genomics (Stony Brook University / RF SUNY)
-- Reproducible PyTorch experiments packaged with MLflow + cloud storage
-- RAG over lab literature/annotations/notes to accelerate hypothesis generation
-- Data-quality + GPU-usage guidelines for shared research infrastructure
-
-### ML Engineer (5G / Telecom AI) — A5G Networks™
-- Azure Event Hub → Databricks (PySpark) → Delta → Azure ML pipeline for high-volume 5G events
-- MLflow + Azure DevOps + Kubernetes for monitored rollouts and retraining
-
-### ML Engineer (ICU / CV / GenAI) — Cloudphysician
-- Real-time ICU analytics: video/vitals → Kafka/PySpark → AWS (EC2/Lambda/SageMaker/Redshift/DynamoDB)
-- Containerized CV/multimodal models with Docker + EKS for clinician dashboards
-
----
-
-## 📌 Selected projects (from my GitHub)
-- **Debian-CFI-Census** — *Contributor*
-- **MIMIC-III Benchmarks (clinical ML)** — *Contributor*
-- **Semantic Search for Medical Practitioners (Cohere)** — *Contributor*
-- **Text Summarization via OpenAI/Cohere** — *Contributor*
-- **YOLOv4-OpenCV-CUDA-DNN** — *Contributor*
-- **Vector search prototypes** (Qdrant/Chroma) + **Docker cluster trials** — *Contributor*
-- **3D Slicer Digital Assets for AI Research** — *Contributor*
-
-> Check my pinned repos for the most up-to-date work.
-
-## Open Source Contributions
-- [linbbcooperi/CryoClear#1](https://github.com/linbbcooperi/CryoClear/pull/1) — Fix `JunkClassifier.load()` dropping the saved `model_type`, breaking incremental SGD updates after a save/load round trip
-- [linbbcooperi/CryoClear#2](https://github.com/linbbcooperi/CryoClear/pull/2) — Add unit tests for `ActiveLearner` (cold-start seeding, correction buffering, undo/refit, single-class guard)
-- [drdileepunni/GAM#1](https://github.com/drdileepunni/GAM/pull/1) — Fix `subsample_window` global RNG mutation and a crash on 2-row-or-smaller windows
-- [drdileepunni/GAM#2](https://github.com/drdileepunni/GAM/pull/2) — De-bloat repo: stop tracking generated Plotly HTML visualization dumps (~14MB)
-
-### 🌍 GIS & Remote Sensing Projects *(private repos)*
-
-- **Urban Heat Island Analysis & Mitigation Mapping** *(Urban Planning)*  
-  Land Surface Temperature extraction from Landsat 8/9 thermal imagery • UHI zone classification using standard deviation thresholds • LULC correlation analysis • Weighted Mitigation Priority Index combining thermal anomaly, population density, and green space deficit  
-  *5 source modules, unit tests, data download utility*
-
-- **Multi-Criteria Flood Risk Assessment** *(Environmental/Climate)*  
-  DEM hydrological preprocessing (sink filling, flow direction, flow accumulation, TWI) • AHP-weighted flood susceptibility mapping (7 criteria with consistency validation) • Socioeconomic vulnerability assessment (population, infrastructure, SVI) • Composite risk index with scenario analysis for multiple return periods (10yr–500yr)  
-  *6 source modules, comprehensive AHP unit tests*
-
-- **Crop Health Monitoring with Sentinel-2 NDVI** *(Agriculture/Remote Sensing)*  
-  Multi-temporal Sentinel-2 data loading with cloud masking and 20m→10m resampling • 7 vegetation indices (NDVI, EVI, SAVI, NDRE, NDWI, GNDVI, CIre) • Double-logistic phenology curve fitting • Anomaly detection (z-score, Isolation Forest, LOF) for crop stress identification • Field-level zonal statistics and change reporting  
-  *6 source modules, extensive unit tests*
-
-### 🏥 Medical Imaging / 3D Slicer Projects *(advanced, hands-on)*
-
-- **Brain Tumor Segmentation & 3D Volumetric Analysis** *(Neuro-oncology / AI Training Data)*  
-  End-to-end DICOM → NIfTI ingestion pipeline in 3D Slicer • Semi-automatic brain tumor segmentation using Segment Editor (threshold painting, grow-from-seeds, margin expansion) on multi-modal MRI (T1, T1-Gd, T2, FLAIR) • 3D volumetric rendering and tumor volume quantification • Label-map export for deep learning model training (nnU-Net / MONAI compatible) • Custom 3D Slicer Python scripted module for batch segmentation QA and inter-rater consistency checks  
-  *Hands-on with 3D Slicer Segment Editor, Markups, Volume Rendering, and scripted module development*
-
-- **CT Lung Nodule Annotation & AI-Ready Dataset Pipeline** *(Pulmonology / AI Research)*  
-  DICOM loading and lung windowing in 3D Slicer • Semi-automatic pulmonary nodule segmentation using threshold-based region growing and manual refinement • Annotation of nodule characteristics (size, shape, margin, texture) via custom Markups and JSON metadata export • Batch conversion of segmentations to NIfTI label maps with standardized naming for AI model ingestion • Integration with a Python post-processing script for COCO-style dataset formatting and train/val/test splitting  
-  *Hands-on with 3D Slicer DICOM module, Segment Editor, Markups, Python interop, and dataset curation for AI pipelines*
-
----
-
-## 🎮 Game & Simulation Projects (Panda3D)
-
-Interactive 3D games and tools built in Python with the **Panda3D** engine — real-time physics, arcade gameplay, procedural geometry, GLSL shaders, and DirectGUI.
+<h2><img src="assets/emoji/rocket.png" width="30" alt=""> Featured projects</h2>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/bhargavchintam/dune-buggy-sandbox">🏜️ Dune Buggy Sandbox</a></h3>
-      <a href="https://github.com/bhargavchintam/dune-buggy-sandbox"><img src="https://raw.githubusercontent.com/bhargavchintam/dune-buggy-sandbox/main/media/dune_buggy_gameplay.gif" width="100%"/></a>
-      <sub>Bullet vehicle physics on procedural heightfield dunes — jump ramps, loop rings, suspension, dust & speed-tracking engine sound.</sub>
+      <a href="https://github.com/bhargavchintam/aureproof"><img src="assets/projects/aureproof.svg" width="100%" alt="Aureproof: a task health record, a signed evidence bundle and a pre-registered pass, fail or inconclusive gate"></a>
+      <h3><img src="assets/emoji/face_with_monocle.png" width="26" alt=""> <a href="https://github.com/bhargavchintam/aureproof">aureproof</a></h3>
+      An open-source integrity layer for AI-agent evaluations. It checks that the grader works before a task counts, signs an evidence bundle anyone can re-score offline, and gates regressions with a pre-registered pass / fail / inconclusive rule.
+      <br><br>
+      <sub><b>Python · Inspect AI · in-toto · Sigstore</b> · Apache-2.0 · pre-alpha, contributors welcome</sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/bhargavchintam/orbital-defense">🚀 Orbital Defense</a></h3>
-      <a href="https://github.com/bhargavchintam/orbital-defense"><img src="https://raw.githubusercontent.com/bhargavchintam/orbital-defense/main/media/orbital_defense_gameplay.gif" width="100%"/></a>
-      <sub>Top-down arcade space shooter — pickups, shields, settings sliders, pause/continue, and an animated GLSL starfield.</sub>
+      <a href="https://github.com/bhargavchintam/tripwire"><img src="assets/projects/tripwire.gif" width="100%" alt="Tripwire demo: a risky send is held before it runs, the exposed agent is traced and held, and a human approves the proven cure"></a>
+      <h3><img src="assets/emoji/guard.png" width="26" alt=""> <a href="https://github.com/bhargavchintam/tripwire">tripwire</a></h3>
+      A security checkpoint in front of every AI-agent tool call. It holds risky actions before they run, trips on decoy secrets, traces a poisoned input across the fleet, and proposes guardrails proven by replay before a human approves them.
+      <br><br>
+      <sub><b>FastAPI · React · ClickHouse · MCP · Semgrep</b> · built with Sripadha at the SF Tech Week Cyberdefense Hackathon</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/bhargavchintam/beam-bender">🔦 Beam Bender</a></h3>
-      <a href="https://github.com/bhargavchintam/beam-bender"><img src="https://raw.githubusercontent.com/bhargavchintam/beam-bender/main/media/beam_bender_gameplay.gif" width="100%"/></a>
-      <sub>A 3D grid puzzle — rotate the mirrors so the beam reflects onto every target.</sub>
+      <a href="https://github.com/bhargavchintam/computer-use-capabilities"><img src="assets/projects/computer-use-capabilities.gif" width="100%" alt="A compiled capability replays in a mock legacy bank UI with no model in the loop"></a>
+      <h3><img src="assets/emoji/mechanical_arm.png" width="26" alt=""> <a href="https://github.com/bhargavchintam/computer-use-capabilities">computer-use-capabilities</a></h3>
+      An LLM works out a task in a hostile legacy bank UI once. The run compiles into a typed, versioned capability that replays with no model in the loop, never commits twice, and hands the live session to a person when it must.
+      <br><br>
+      <sub><b>Python · Playwright · Anthropic SDK · Pydantic</b> · 139 tests · 15 replay scenarios, each run twice with identical results</sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/bhargavchintam/still-life-painter">🎨 Still Life Painter</a></h3>
-      <a href="https://github.com/bhargavchintam/still-life-painter"><img src="https://raw.githubusercontent.com/bhargavchintam/still-life-painter/main/media/still_life_gameplay.gif" width="100%"/></a>
-      <sub>3D art-studio painting minigame — orbit a still life and paint what you see (glTF · Poly Haven CC0 assets).</sub>
+      <a href="https://github.com/bhargavchintam/llm-inference"><img src="assets/projects/llm-inference.gif" width="100%" alt="All 28 llm-inference self-checks passing"></a>
+      <h3><img src="assets/emoji/brain.png" width="26" alt=""> <a href="https://github.com/bhargavchintam/llm-inference">llm-inference</a></h3>
+      The LLM inference stack written out in NumPy: KV cache, paged attention, continuous batching, speculative decoding and quantization. Every piece checks itself against a reference, and CI runs all 28 checks.
+      <br><br>
+      <sub><b>Python · NumPy</b> · MIT · contributors welcome</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/bhargavchintam/gpu-kernels"><img src="assets/projects/gpu-kernels.gif" width="100%" alt="The tiled GEMM CUDA kernel, then all 15 NumPy reference checks passing"></a>
+      <h3><img src="assets/emoji/high_voltage.png" width="26" alt=""> <a href="https://github.com/bhargavchintam/gpu-kernels">gpu-kernels</a></h3>
+      CUDA and Triton kernels for deep-learning primitives (tiled GEMM, warp-shuffle reductions, fused softmax, layernorm, flash attention), each checked against a NumPy reference, with notes on coalescing, tiling and the roofline.
+      <br><br>
+      <sub><b>CUDA · Triton · NumPy</b></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/bhargavchintam/VizAgent"><img src="https://raw.githubusercontent.com/bhargavchintam/VizAgent/main/demo/preview.gif" width="100%" alt="ViZ Agent finds pedestrian and vehicle conflicts in street video"></a>
+      <h3><img src="assets/emoji/eyes.png" width="26" alt=""> <a href="https://github.com/bhargavchintam/VizAgent">VizAgent</a></h3>
+      A video agent that sweeps street-camera and dashcam footage for pedestrian–vehicle conflicts, double-checks every clip, ranks the hotspots and drafts the work order a city traffic engineer could act on.
+      <br><br>
+      <sub><b>NVIDIA Cosmos · YOLO11 · VAST · FastAPI</b> · built with Sripadha V and Jacob Shrader at the VAST Builders Challenge</sub>
     </td>
   </tr>
 </table>
 
-> **Stack:** Panda3D · Bullet physics · GLSL shaders · procedural geometry · DirectGUI · glTF/GLB
+<h2><img src="assets/emoji/party_popper.png" width="30" alt=""> Hackathon and team builds</h2>
 
----
+<table>
+  <tr>
+    <td width="60" align="center"><img src="assets/emoji/speaking_head.png" width="40" alt=""></td>
+    <td>
+      <a href="https://github.com/garwalsh/zuzu"><b>Zuzu</b></a>: call a number, answer plain questions in your own language, and six agents on BAND fill in a USCIS form, with every value taken from a deterministic tool. Built with Gar Walsh.
+      <br><sub>🏆 Best Use of BAND and Best Use of ElevenLabs, Prompt Driven Hackathon 2026</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="60" align="center"><img src="assets/emoji/microbe.png" width="40" alt=""></td>
+    <td>
+      <a href="https://github.com/linbbcooperi/CryoClear"><b>CryoClear</b></a>: a real-time cryo-EM junk-triage copilot. It picks particles, flags junk as micrographs stream in, and learns from a scientist's corrections. I built the picking engine, the junk classifier and the active-learning UI.
+      <br><sub>QBI Hackathon 2026, UCSF · open source (MIT)</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="60" align="center"><img src="assets/emoji/anatomical_heart.png" width="40" alt=""></td>
+    <td>
+      <a href="https://github.com/dschlesinger/hackrare2026"><b>Diageno</b></a>: a rare-disease diagnostic recommendation prototype. From phenotype and genetic data it ranks a differential diagnosis, shows the evidence and uncertainty, and suggests the most useful next question.
+      <br><sub>Harvard Rare Disease Hackathon 2026 · team of four</sub>
+    </td>
+  </tr>
+</table>
 
-## 📝 Publications & 🧾 Patents (highlights)
-**Publications**
-- Facial Emotions and Behaviour Detection using DNN (Scopus, 2021)
-- Text Recognition from Images (Tesseract + gTTS) (IJARCS, 2020)
-- Dinuc2mer: Deep Learning Approach for Coding Region Prediction (BioCHEM, 2024)
-- Adaptive RAG Orchestration and Tool-Graph Optimization for Enterprise LLMs (2025)
-- Adaptive Importance Sampling for Rare Congestion in a Two-Stage Queue (2025)
-- Using ML to Identify Dinucleotide Motif Periodicity in Genomes (2025)
+<h2><img src="assets/emoji/handshake.png" width="30" alt=""> Open source</h2>
 
-**Patents**
-- Monitoring Facial Emotions and Behavior Using DNN (AU 2021102414, 2021)
-- Provisional: Adaptive RAG Orchestration and Tool-Graph Optimization (2025)
-- Provisional: Multimodal ICU Deterioration Prediction via Streaming Pipelines (2023)
+- [NVIDIA-NeMo/Curator#2285](https://github.com/NVIDIA-NeMo/Curator/issues/2285): showed that the fuzzy-dedup tuning guidance for `num_bands` and `minhashes_per_band` was inverted under MinHash-LSH banding. The maintainers fixed the docs in [#2287](https://github.com/NVIDIA-NeMo/Curator/pull/2287).
+- [spack/spack-packages#7083](https://github.com/spack/spack-packages/pull/7083): makes charliecloud 0.44 and later require squashfuse 0.4.0 or newer (fixes #5400). In review.
+- [promptdriven/pdd#2341](https://github.com/promptdriven/pdd/issues/2341): context limits are handled as a hard cutoff and provider prompt caching is never used; with an RFC on serving assumptions in [#2342](https://github.com/promptdriven/pdd/issues/2342).
+- [COMPAS-Lab/cloud-manager](https://github.com/COMPAS-Lab/cloud-manager/pulls?q=is%3Apr+author%3Abhargavchintam): 15 merged pull requests to a research lab's cloud console, a fork of Linode Cloud Manager (TypeScript, React).
 
----
+<h2><img src="assets/emoji/student.png" width="30" alt=""> Notes and practice</h2>
 
-## 🎓 Education
-- **M.S. Computer Science (Thesis)** — Stony Brook University (2023–2024)  
-  Coursework: ML, CV, NLP, Big Data, DB Systems, LLMs, RAG & Agentic AI, **Distributed Systems (Raft/Paxos/PBFT, gRPC, Blockchain)**  
-- **B.Tech CSE (Thesis)** — REVA University (2017–2021), GPA 9.78
+- [high-level-design](https://github.com/bhargavchintam/high-level-design): system design notes and case studies, including ML and AI-infrastructure designs with capacity estimates
+- [low-level-design](https://github.com/bhargavchintam/low-level-design): 48 runnable object-oriented designs, from a parking lot to an inference server, a KV-cache pool and a GPU memory allocator
+- [leetcode](https://github.com/bhargavchintam/leetcode): 935 solutions in Python, C++, Java, C, SQL and bash
+- [Study path](STUDY-PATH.md): my B.Tech coursework repos, arranged as a curriculum
 
----
+<h2><img src="assets/emoji/shooting_star.png" width="30" alt=""> For fun: Panda3D games</h2>
 
-## 📚 Coursework, Labs & Study Path
+<table>
+  <tr>
+    <td align="center" width="25%"><a href="https://github.com/bhargavchintam/dune-buggy-sandbox"><img src="https://raw.githubusercontent.com/bhargavchintam/dune-buggy-sandbox/main/media/dune_buggy_gameplay.gif" width="100%" alt="Dune Buggy Sandbox gameplay"><br><sub><b>Dune Buggy Sandbox</b></sub></a></td>
+    <td align="center" width="25%"><a href="https://github.com/bhargavchintam/orbital-defense"><img src="https://raw.githubusercontent.com/bhargavchintam/orbital-defense/main/media/orbital_defense_gameplay.gif" width="100%" alt="Orbital Defense gameplay"><br><sub><b>Orbital Defense</b></sub></a></td>
+    <td align="center" width="25%"><a href="https://github.com/bhargavchintam/beam-bender"><img src="https://raw.githubusercontent.com/bhargavchintam/beam-bender/main/media/beam_bender_gameplay.gif" width="100%" alt="Beam Bender gameplay"><br><sub><b>Beam Bender</b></sub></a></td>
+    <td align="center" width="25%"><a href="https://github.com/bhargavchintam/still-life-painter"><img src="https://raw.githubusercontent.com/bhargavchintam/still-life-painter/main/media/still_life_gameplay.gif" width="100%" alt="Still Life Painter gameplay"><br><sub><b>Still Life Painter</b></sub></a></td>
+  </tr>
+</table>
 
-**➡️ [Full study path and repository index](STUDY-PATH.md)**
+<h2><img src="assets/emoji/mechanic.png" width="30" alt=""> Tools I use most</h2>
 
-My coursework, lab and practice repos are open — the notes, the runnable programs and the lab records for each subject, arranged as a curriculum rather than a pile. Everything builds with a standard toolchain.
-
-| Track | Where to start |
-|---|---|
-| Programming | [C](https://github.com/bhargavchintam/computer-concepts-and-c-programming) · [Python](https://github.com/bhargavchintam/programming-with-python-and-labs) · [C++](https://github.com/bhargavchintam/object-oriented-programming-cpp) · [Java](https://github.com/bhargavchintam/advanced-computer-programming-java) |
-| Core CS | [Data Structures & Algorithms](https://github.com/bhargavchintam/data-structures-and-algorithms-and-lab) · [Design & Analysis of Algorithms](https://github.com/bhargavchintam/design-and-analysis-of-algorithms-and-lab) |
-| Systems | [Digital Logic](https://github.com/bhargavchintam/digital-principles-and-logic-design-and-lab) · [Architecture](https://github.com/bhargavchintam/computer-organization-and-architecture-and-lab) · [8051](https://github.com/bhargavchintam/microcontrollers-and-lab) · [System Software](https://github.com/bhargavchintam/system-software-and-lab) |
-| OS & Networks | [Operating Systems & Unix](https://github.com/bhargavchintam/operating-system-and-unix-internals-and-lab) · [Computer Networks](https://github.com/bhargavchintam/computer-network-concepts-and-protocol-and-lab) |
-| Data & ML | [DBMS](https://github.com/bhargavchintam/database-management-system-and-lab) · [Data Mining](https://github.com/bhargavchintam/data-mining-techniques-and-lab) · [Big Data](https://github.com/bhargavchintam/big-data-and-hadoop) · [Machine Learning](https://github.com/bhargavchintam/machine-learning-and-applications) |
-| Cloud & Security | [Virtualization & Cloud](https://github.com/bhargavchintam/virtualization-and-cloud-computing) · [Cloud Lab](https://github.com/bhargavchintam/cloud-computing-lab) · [Cryptography](https://github.com/bhargavchintam/cryptography-and-network-security-and-lab) |
-| Interview practice | [LeetCode (935)](https://github.com/bhargavchintam/leetcode) · [Low-Level Design (48)](https://github.com/bhargavchintam/low-level-design) · [High-Level Design (68)](https://github.com/bhargavchintam/high-level-design) |
-| AI infrastructure | [LLM Inference](https://github.com/bhargavchintam/llm-inference) · [GPU Kernels](https://github.com/bhargavchintam/gpu-kernels) |
-
----
-
-## 🤝 Leadership & Service
-- President, Graduate Student Organization — SBU (May 2024 – Jun 2025)
-- Chief Steward, CWA Local 1101 GSEU (Mar 2024 – Present)
-- Board of Directors, ASA — SBU (May 2024 – May 2025)
-
----
-
-## 📫 Let’s connect
-- Email: **bindubhargavareddy@gmail.com**
-- LinkedIn: **bindu-bhargava-reddy-chintam**
-- GitHub: **@bhargavchintam**
-- Phone: **+1 (934) 221-7847**
-
----
-
-## 🧰 Tools & Icons
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=aws,azure,gcp,kubernetes,docker,terraform,windows,apple,linux,ubuntu,debian,bash,git,github,githubactions,gitlab,py,pytorch,tensorflow,postgres,sqlite,mongodb,dynamodb,mysql,redis,kafka,grafana,prometheus,opencv,js,ts,nodejs,npm,react,fastapi,graphql,flask,django,opencv,c,cpp,go,java,latex,gmail,linkedin,anaconda,ansible,arduino,atom,bash,bitbucket,cassandra,d3,discord,elasticsearch,jenkins,md,postman,regex,stackoverflow,vim,vscode,&perline=13" />
-  </a></br>
-  <img alt="Databricks" src="https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white" />
-  <img alt="MLflow" src="https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white" />
-  <img alt="dbt" src="https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white" />
-  <img alt="OpenTelemetry" src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat&logo=opentelemetry&logoColor=white" />
-  <img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-000000?style=flat&logo=openai&logoColor=white" />
-  <img alt="HuggingFace" src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=000" />
-  <img alt="QGIS" src="https://img.shields.io/badge/QGIS-589632?style=flat&logo=qgis&logoColor=white" />
-  <img alt="Google Earth Engine" src="https://img.shields.io/badge/Google%20Earth%20Engine-4285F4?style=flat&logo=google-earth&logoColor=white" />
-  <img alt="GDAL" src="https://img.shields.io/badge/GDAL-5CAE58?style=flat&logoColor=white" />
-  <img alt="GeoPandas" src="https://img.shields.io/badge/GeoPandas-139C5A?style=flat&logoColor=white" />
-  <img alt="Rasterio" src="https://img.shields.io/badge/Rasterio-4B8BBE?style=flat&logoColor=white" />
-  <img alt="Sentinel-2" src="https://img.shields.io/badge/Sentinel--2-003DA5?style=flat&logoColor=white" />
-  <img alt="Landsat" src="https://img.shields.io/badge/Landsat%208%2F9-1A73E8?style=flat&logoColor=white" />
-  <img alt="3D Slicer" src="https://img.shields.io/badge/3D%20Slicer-F9A825?style=flat&logoColor=white" />
+<p>
+  <img src="https://skillicons.dev/icons?i=py,cpp,pytorch,linux,docker,kubernetes,kafka,aws,azure,gcp,postgres,fastapi,react,git&perline=14" alt="Python, C++, PyTorch, Linux, Docker, Kubernetes, Kafka, AWS, Azure, Google Cloud, PostgreSQL, FastAPI, React, Git">
+</p>
+<p>
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white" alt="CUDA">
+  <img src="https://img.shields.io/badge/Triton-24292F?style=flat" alt="Triton">
+  <img src="https://img.shields.io/badge/Nsight-76B900?style=flat&logo=nvidia&logoColor=white" alt="Nsight">
+  <img src="https://img.shields.io/badge/vLLM-30A2FF?style=flat" alt="vLLM">
+  <img src="https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white" alt="Databricks">
+  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark&logoColor=white" alt="Apache Spark">
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white" alt="MLflow">
 </p>
 
-<!-- Optional: GitHub stats (enable if you want)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bhargavchintam&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bhargavchintam&layout=compact)
--->
+<sub>Animated emoji: <a href="https://github.com/microsoft/fluentui-emoji-animated">Microsoft Fluent Emoji</a> (MIT).</sub>
