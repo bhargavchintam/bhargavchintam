@@ -116,7 +116,7 @@ I make large models train and serve faster, and I build AI agents whose work can
 - [leetcode](https://github.com/bhargavchintam/leetcode): 935 solutions in Python, C++, Java, C, SQL and bash
 - [Study path](STUDY-PATH.md): my B.Tech coursework repos, arranged as a curriculum
 
-<h2><img src="assets/emoji/shooting_star.png" width="30" alt=""> For fun: Panda3D games</h2>
+<h2><img src="assets/emoji/shooting_star.png" width="30" alt=""> Panda3D games and QGIS maps</h2>
 
 <table>
   <tr>
@@ -124,6 +124,17 @@ I make large models train and serve faster, and I build AI agents whose work can
     <td align="center" width="25%"><a href="https://github.com/bhargavchintam/orbital-defense"><img src="https://raw.githubusercontent.com/bhargavchintam/orbital-defense/main/media/orbital_defense_gameplay.gif" width="100%" alt="Orbital Defense gameplay"><br><sub><b>Orbital Defense</b></sub></a></td>
     <td align="center" width="25%"><a href="https://github.com/bhargavchintam/beam-bender"><img src="https://raw.githubusercontent.com/bhargavchintam/beam-bender/main/media/beam_bender_gameplay.gif" width="100%" alt="Beam Bender gameplay"><br><sub><b>Beam Bender</b></sub></a></td>
     <td align="center" width="25%"><a href="https://github.com/bhargavchintam/still-life-painter"><img src="https://raw.githubusercontent.com/bhargavchintam/still-life-painter/main/media/still_life_gameplay.gif" width="100%" alt="Still Life Painter gameplay"><br><sub><b>Still Life Painter</b></sub></a></td>
+  </tr>
+</table>
+
+<p><a href="https://github.com/bhargavchintam/qgis-geospatial-projects"><b>qgis-geospatial-projects</b></a>: six QGIS and Python analyses (urban heat island, flood risk, crop health, healthcare access, forest change and solar siting). Each has QGIS layer styles, a Python pipeline and a Streamlit app, and the maps are live on the <a href="https://bhargavchintam.github.io/qgis-geospatial-projects/">project site</a>.</p>
+
+<table>
+  <tr>
+    <td align="center" width="25%"><a href="https://github.com/bhargavchintam/qgis-geospatial-projects/tree/main/urban-heat-island-analysis"><img src="https://raw.githubusercontent.com/bhargavchintam/qgis-geospatial-projects/main/urban-heat-island-analysis/docs/figures/00_hero.png" width="100%" alt="Urban heat island analysis map"><br><sub><b>Urban heat island</b></sub></a></td>
+    <td align="center" width="25%"><a href="https://github.com/bhargavchintam/qgis-geospatial-projects/tree/main/flood-risk-assessment"><img src="https://raw.githubusercontent.com/bhargavchintam/qgis-geospatial-projects/main/flood-risk-assessment/docs/figures/00_hero.png" width="100%" alt="Flood risk assessment map"><br><sub><b>Flood risk</b></sub></a></td>
+    <td align="center" width="25%"><a href="https://github.com/bhargavchintam/qgis-geospatial-projects/tree/main/crop-health-ndvi-monitoring"><img src="https://raw.githubusercontent.com/bhargavchintam/qgis-geospatial-projects/main/crop-health-ndvi-monitoring/docs/figures/00_hero.png" width="100%" alt="Crop health NDVI map"><br><sub><b>Crop health</b></sub></a></td>
+    <td align="center" width="25%"><a href="https://github.com/bhargavchintam/qgis-geospatial-projects/tree/main/forest-change-detection"><img src="https://raw.githubusercontent.com/bhargavchintam/qgis-geospatial-projects/main/forest-change-detection/docs/figures/00_hero.png" width="100%" alt="Forest change detection map"><br><sub><b>Forest change</b></sub></a></td>
   </tr>
 </table>
 
@@ -140,6 +151,8 @@ I make large models train and serve faster, and I build AI agents whose work can
   <img src="https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white" alt="Databricks">
   <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark&logoColor=white" alt="Apache Spark">
   <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white" alt="MLflow">
+  <img src="https://img.shields.io/badge/Panda3D-2C3E50?style=flat" alt="Panda3D">
+  <img src="https://img.shields.io/badge/QGIS-589632?style=flat&logo=qgis&logoColor=white" alt="QGIS">
 </p>
 
 <sub>Animated emoji: <a href="https://github.com/microsoft/fluentui-emoji-animated">Microsoft Fluent Emoji</a> (MIT).</sub>
