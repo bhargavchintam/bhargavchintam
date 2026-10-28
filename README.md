@@ -53,7 +53,7 @@ I make large models train and serve faster, and I build AI agents whose work can
     <td width="50%" valign="top">
       <a href="https://github.com/bhargavchintam/llm-inference"><img src="assets/projects/llm-inference.gif" width="100%" alt="All 28 llm-inference self-checks passing"></a>
       <h3><img src="assets/emoji/brain.png" width="26" alt=""> <a href="https://github.com/bhargavchintam/llm-inference">llm-inference</a></h3>
-      The LLM inference stack written out in NumPy: KV cache, paged attention, continuous batching, speculative decoding and quantization. Every piece checks itself against a reference, and CI runs all 28 checks.
+      The LLM inference stack written out in NumPy: KV cache, paged attention, continuous batching, speculative decoding and quantization. Every piece checks itself against a reference, and CI runs all 29 checks.
       <br><br>
       <sub><b>Python · NumPy</b> · MIT · contributors welcome</sub>
     </td>
