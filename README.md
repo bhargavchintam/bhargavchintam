@@ -132,10 +132,12 @@ I make large models train and serve faster, and I build AI agents whose work can
 
 <table>
   <tr>
-    <td align="center" width="25%"><a href="https://github.com/bhargavchintam/dune-buggy-sandbox"><img src="https://raw.githubusercontent.com/bhargavchintam/dune-buggy-sandbox/main/media/dune_buggy_gameplay.gif" width="100%" alt="Dune Buggy Sandbox gameplay"><br><sub><b>Dune Buggy Sandbox</b></sub></a></td>
-    <td align="center" width="25%"><a href="https://github.com/bhargavchintam/orbital-defense"><img src="https://raw.githubusercontent.com/bhargavchintam/orbital-defense/main/media/orbital_defense_gameplay.gif" width="100%" alt="Orbital Defense gameplay"><br><sub><b>Orbital Defense</b></sub></a></td>
-    <td align="center" width="25%"><a href="https://github.com/bhargavchintam/beam-bender"><img src="https://raw.githubusercontent.com/bhargavchintam/beam-bender/main/media/beam_bender_gameplay.gif" width="100%" alt="Beam Bender gameplay"><br><sub><b>Beam Bender</b></sub></a></td>
-    <td align="center" width="25%"><a href="https://github.com/bhargavchintam/still-life-painter"><img src="https://raw.githubusercontent.com/bhargavchintam/still-life-painter/main/media/still_life_gameplay.gif" width="100%" alt="Still Life Painter gameplay"><br><sub><b>Still Life Painter</b></sub></a></td>
+    <td align="center" width="50%" valign="top"><a href="https://github.com/bhargavchintam/dune-buggy-sandbox"><img src="assets/games/dune-buggy-sandbox.gif" width="100%" alt="Dune Buggy Sandbox gameplay"></a><br><a href="https://github.com/bhargavchintam/dune-buggy-sandbox"><b>Dune Buggy Sandbox</b></a><br><sub>Bullet vehicle physics on procedural dunes, with ramps and loop rings</sub></td>
+    <td align="center" width="50%" valign="top"><a href="https://github.com/bhargavchintam/orbital-defense"><img src="assets/games/orbital-defense.gif" width="100%" alt="Orbital Defense gameplay"></a><br><a href="https://github.com/bhargavchintam/orbital-defense"><b>Orbital Defense</b></a><br><sub>Top-down arcade shooter with pickups, a shield and an animated GLSL starfield</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" valign="top"><a href="https://github.com/bhargavchintam/beam-bender"><img src="assets/games/beam-bender.gif" width="100%" alt="Beam Bender gameplay"></a><br><a href="https://github.com/bhargavchintam/beam-bender"><b>Beam Bender</b></a><br><sub>Grid puzzle: rotate the mirrors to bend the beam onto every target</sub></td>
+    <td align="center" width="50%" valign="top"><a href="https://github.com/bhargavchintam/still-life-painter"><img src="assets/games/still-life-painter.gif" width="100%" alt="Still Life Painter gameplay"></a><br><a href="https://github.com/bhargavchintam/still-life-painter"><b>Still Life Painter</b></a><br><sub>Orbit a 3D still life and paint what you see on the canvas</sub></td>
   </tr>
 </table>
 
